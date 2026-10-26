@@ -23,4 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.invoice_view,name='invoice'),
     path('invoice_list/',views.invoice_list,name='invoice\_list'),
+    path('home/',views.home,name='home'),
+    path('about/',views.about,name='home'),
+    path('contact/',views.contact,name='home'),
+
 ]
